@@ -1,0 +1,47 @@
+Belangrike inligting oor spelling.  Maak seker die kolom name en tabel name en waardes word gespel presies soos in die vrae hieronder!
+
+Die tabel (wat hieronder vertoon word) kan ook in skema sintaks soos volg voorgestel word:
+
+CUSTOMER(CUS_CODE, CUS_LNAME, CUS_FNAME, CUS_INITIAL, CUS_AREACODE, CUS_PHONE, CUS_BALANCE)
+CHARTER(CHAR_TRIP, CHAR_DATE, AC_NUMBER, CUS_CODE, CHAR_DESTINATION, CHAR_DISTANCE, CHAR_HOURS_FLOWN, CHAR_HOURS_WAIT, CHAR_FUEL_GALLONS)
+AIRCRAFT(AC_NUMBER, MOD_CODE, AC_TTAF, AC_TTEL, AC_TTER)
+MODEL(MOD_CODE, MODE_MANUFACTURER, MOD_NAME, MOD_SEATS, MOD_CHG_MILE, V_ORDER)
+CREW(CHAR_TRIP, EMP_NUM, CREW_JOB)
+EMPLOYEE(EMP_NUM, EMP_LNAME, EMP_FNAME, EMP_INITIAL, EMP_DOB, EMP_HIRE_DATE)
+PILOT(EMP_NUM, PIL_LICENSE, PIL_RATINGS, PIL_MED_TYPE, PIL_MED_DATE, PIL_PT135_DATE)
+EARNEDRATING(EMP_NUM, RTG_CODE, EARNRTG,DATE)
+RATING(RTG_CODE, RTG_NAME)
+Ons herinner studente ook dat nuwe tabelle geskep kan word deur die sub-opdrag by die volgende opdrag te voer: CREATE TABLE TABEL_NAAM AS
+
+Let op die diagram onder die vrae wat die entiteite en verhoudings beter verduidelik.
+
+Skep ŉ tabel met die naam VRAAG2_1.
+Die inhoud van die tabel moet die volgende kolomme bevat vir die vliegtuig”AC_NUMBER” ‘2778V’ vanaf die CHARTER tabel.
+CHAR_DATE,AC_NUMBER,CHAR_DESTINATION,CHAR_DISTANCE,CHAR_HOURS_FLOWN
+
+Skep ŉ tabel met die naam VRAAG2_2. Die inhoud van die tabel moet die hoeveelheid brandstof per ure wat gevlieg is uitwerk en vertoon as rekenkundige kolom “GALLONS_PER_HOUR”. Die VRAAG2_2 tabel moet geskep word die volgende kolomme en data vanaf die CHARTER tabel.
+CHAR_DATE, AC_NUMBER, CHAR_HOURS_FLOWN,CHAR_FUEL_GALLONS, GALLONS_PER_HOUR
+
+Skep ŉ tabel met die naam VRAAG2_3. Die inhoud van die tabel moet ŉ lys wees van die kliente met ŉ uitstaande saldo (CUS_BALANCE).  Die VRAAG2_3 tabel moet geskep word die volgende kolomme en data vanaf die CUSTOMER tabel en moet die volgende kolomme bevat CUS_LNAME,CUS_FNAME,CUS_INITIAL,CUS_BALANCE.
+
+Skep ŉ tabel met die naam VRAAG2_4. Die inhoud van die tabel moet die volgende rekenkundige vier kolomme wees. GEMIDDELDE_BALANS, MINIMUM_BALANS, MAKSIMUM_BALANS, TOTALE_BALANS.  
+Jy moet rekenkundig die waardes van elke een van die kolomme bereken sodat dit by die kolom se opskrif pas vir die lys van kliente “CUSTOMER”
+
+Skep ŉ tabel met die VRAAG2_5. Die inhoud van die tabel moet die volgende kolomme bevat: EMP_NUM, EMP_LNAME, EMP_FNAME,EMP_HIRE_DATE,EMP_DOB, OUDERDOM.
+Die inhoud van die kolomme moet verkry word en bereken word vanuit die EMPLOYEE tabel. Die ouderdom kolom is ŉ berekende kolom wat die ouderdom van die personeellid bereken in jare.
+
+Maak seker jy voltooi hierdie vraag NA jy vraag 5 gedoen het. Skep ŉ nuwe “PILOT”. Die vlieënier se inligting is soos volg:
+EMP_TITLE: Mr.
+EMP_LNAME: Pieterse
+EMP_FNAME: Riko
+EMP_INITIAL: B
+EMP_DOB: 1985-05-06
+EMP_HIRE_DATE: 2024-08-19
+PIL_LICENSE: COM
+PIL_RATINGS: SEL/MEL/Instr/CFI
+PIL_MED_TYPE: 2
+PIL_MED_DATE: 2013-01-15
+PIL_PT135_DATE: 2023-11-23
+
+Skep ŉ tabel met die naam VRAAG2_7. Die inhoud en kolomme moet almal verkry word vanaf die EMPLOYEE tabel.  Vee VanDam uit VRAAG2_7 tabel.
+Die volgende diagram verduidelik die bestaande databasis entiteite en verhoudinge:

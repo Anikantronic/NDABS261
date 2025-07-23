@@ -1,0 +1,41 @@
+Die volgende oefeninge gebruik Ch08_SaleCo.db databasis in SQLite.  Die databasis het reeds 'n aantal tabelle met datarekords.  Gebruik die nodige SQL opdragte om die volgende opdragte uit te voer.
+
+Opdrag 1:
+
+Jy het 'n voorraad Rolston Power Drill aangekoop.  Skep 'n nuwe PRODUCT rekord met die volgende inligting:
+
+Produk nommer: DD-611248
+Produk beskrywing: Rolston Power Drill
+Datum in: 2024-04-23
+Aantal aan hande: 10
+Minimum voorraad: 3
+Prys: 355.65
+Afslag: 0.05
+Verskaffer: 21225
+Opdrag 2:
+
+'n Klient met die van 'Ramas' het die volgende items by jou gekoop. Opdateer die databasis rekords nadat 'n faktuur vir die twee items uitgereik is.  Gebruik die volgende faktuur nommer in die reeks vir die faktuur.
+
+5 x '1.25-in. metal screw, 25' teen 11.55 per eenheid.
+1 x 'Rat-tail file, 1/8-in. fine' teen 7.99 per eenheid.
+Opdrag 3:
+
+Opdateer die aantal aan-hande (P_QOH) van die produkte na die produkte in Opdrag 2 verkoop is.
+
+Opdrag 4:
+
+George Smith wat aangestel is op 1999-04-14 het bedank en het die maatskappy verlaat. Vee die nodige rekord uit die EMP tabel uit.
+
+Opdrag 5:
+
+Skep 'n permanente nuwe tabel met die naam EMP_2.  Die tabel moet al die kolomme en rekords van EMP bevat. Na dit geskep is, voeg twee ekstra kolomme by die tabel:
+
+EMP_PCT NUMBER (4,2)
+PROJ_NUM CHAR(3)
+Opdrag 6:
+
+Opdateer die PROJ_NUM in EMP_2. Elke werker wie se bestuurder se kode groter of geleik is aan 105, moet aan projek '25' werk.
+
+Opdrag 7:
+
+Skep 'n BIRTHDAYS tabel wat al die kolomme bevat van die EMP tabel maar waar al die werkers wat in Maart verjaar.
