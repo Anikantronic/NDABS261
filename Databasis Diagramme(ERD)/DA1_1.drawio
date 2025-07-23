@@ -1,0 +1,33 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36" version="26.0.16">
+  <diagram name="Page-1" id="zFl4NRZDX3i81TB8X1CF">
+    <mxGraphModel dx="804" dy="512" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BVhpkllHKyboI0dyXfBr-1" value="Student" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="115" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BVhpkllHKyboI0dyXfBr-2" value="+STU_ID&lt;div&gt;+STU_NAAM&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+STU_VAN&lt;/span&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="BVhpkllHKyboI0dyXfBr-1">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BVhpkllHKyboI0dyXfBr-3" value="Kursus" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="307" y="114" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BVhpkllHKyboI0dyXfBr-4" value="+KUR_ID&lt;div&gt;+KUR_NAAM&lt;/div&gt;&lt;div&gt;+KUR_KREDIETE&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;whiteSpace=wrap;" vertex="1" parent="BVhpkllHKyboI0dyXfBr-3">
+          <mxGeometry y="50" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="BVhpkllHKyboI0dyXfBr-5" value="" style="endArrow=ERoneToMany;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;startFill=0;startArrow=ERoneToMany;endFill=0;" edge="1" parent="1" source="BVhpkllHKyboI0dyXfBr-2" target="BVhpkllHKyboI0dyXfBr-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="141" y="34" as="sourcePoint" />
+            <mxPoint x="301" y="34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVhpkllHKyboI0dyXfBr-6" value="Registreer&amp;gt;" style="edgeLabel;resizable=0;html=1;;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="BVhpkllHKyboI0dyXfBr-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint y="11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
